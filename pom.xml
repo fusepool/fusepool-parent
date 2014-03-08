@@ -91,11 +91,12 @@
                 <artifactId>rdf.ontologies</artifactId>
                 <version>0.11-incubating</version>
             </dependency>
+            <!-- excluding because of FELIX-4450
             <dependency>
                 <groupId>org.apache.clerezza</groupId>
                 <artifactId>rdf.core</artifactId>
                 <version>0.14-SNAPSHOT</version>
-            </dependency>
+            </dependency> -->
             <dependency>
                 <groupId>org.apache.clerezza</groupId>
                 <artifactId>rdf.utils</artifactId>
