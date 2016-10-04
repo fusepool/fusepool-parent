@@ -59,27 +59,27 @@
             <dependency>
                 <groupId>org.apache.stanbol</groupId>
                 <artifactId>org.apache.stanbol.commons.web.base</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
+                <version>1.0.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.stanbol</groupId>
                 <artifactId>org.apache.stanbol.entityhub.model.clerezza</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
+                <version>1.0.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.stanbol</groupId>
                 <artifactId>org.apache.stanbol.commons.web.viewable</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
+                <version>1.0.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.stanbol</groupId>
                 <artifactId>org.apache.stanbol.entityhub.core</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
+                <version>1.0.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.stanbol</groupId>
                 <artifactId>org.apache.stanbol.entityhub.servicesapi</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
+                <version>1.0.0</version>
             </dependency>
             <dependency>
                 <groupId>org.slf4j</groupId>
@@ -89,7 +89,7 @@
             <dependency>
                 <groupId>org.apache.clerezza</groupId>
                 <artifactId>rdf.ontologies</artifactId>
-                <version>0.12</version>
+                <version>1.0.0</version>
             </dependency>
             <!-- excluding because of FELIX-4450
             <dependency>
@@ -100,7 +100,7 @@
             <dependency>
                 <groupId>org.apache.clerezza</groupId>
                 <artifactId>rdf.utils</artifactId>
-                <version>0.14</version>
+                <version>1.0.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.clerezza</groupId>
@@ -131,7 +131,7 @@
             <plugin>
                 <groupId>org.apache.felix</groupId>
                 <artifactId>maven-scr-plugin</artifactId>
-                <version>1.16.0</version>
+                <version>1.22.0</version>
                 <executions>
                     <execution>
                         <id>generate-scr-scrdescriptor</id>
